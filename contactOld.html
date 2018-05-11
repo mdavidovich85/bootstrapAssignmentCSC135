@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Contact information for Mike Davidovich including
+  linkedin.com and email, e-mail."/>
+  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+<title>Home - Mike Davidovich</title>
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<div class="container">
+
+<!--row 1-->
+<div class="navbar navbar-inverse">
+	<div class="row">
+		<div class="navbar-header">	            
+<!-- create button for hamburger icon -->
+            <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>
+              <span class='sr-only'>Toggle navigation</span>
+              <!-- Add the hamburger icon -->
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+            </button>
+	</div> <!--.navbar-header-->
+		<ul class="nav navbar-nav collapse navbar-collapse">
+			<li role="presentation" class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+			<li role="presentation"><a href="about.html">About</a></li>
+			<li role="presentation"><a href="resume.html">Resume</a></li>
+			<li role="presentation"><a href="portfolio.html">Portfolio</a></li>
+			<li role="presentation"><a href="volunteerism.html">Volunteerism</a></li>
+			<li role="presentation"><a href="contact.html">Contact <span class="glyphicon glyphicon-pencil"></span></a></li>
+		</ul>
+</div><!--end container-->
+</div> <!-- .navbar -->
+
+<!--row 2-->
+<div class="row">
+	<header>
+	<div>
+		<a href="index.html"><img src="graphic/coffeeandcomputer.jpg" alt="Image of coffee and computer." class="img-responsive col-lg-12 col-md-12"></a>
+	</div>
+	<!--
+	<div>
+	<h1>Mike Davidovich</h1>
+	</div>
+	-->	
+	</header>
+</div> <!--end row 2-->
+
+<!--row 3-->
+<div class="row">
+
+<div class="col-lg-9 col-sm-8"><!--create block for ARTICLE-->
+
+<article>
+
+<h3>Ways to Reach Me</h3>
+	
+	<address>
+	<ul>
+		<li><a href="mailto:davidovm@csp.edu">Contact me by email</a></li>
+		<li><a href="http://www.linkedin.com/in/mdavidovich" target="_blank">View my profile on LinkedIn</a></li>
+	</ul>
+	</address>
+
+<h3>Contact Me</h3>
+
+
+	<p><label>Name: <input type="text" id="Name" name="txtName" maxlenght="20" placeholder="Your name"></label></p>
+	<p><label>Email: <input type="text" id="email" name="txtEmail" maxlenght="30" placeholder="Your email"></label></p>
+
+
+
+<feildset>
+	<legend><strong>Inquiry Type:</strong></legend>
+	<p><label><input type="radio" name="optType" value="personal"> Personal</label>
+	<label><input type="radio" name="optType" value="business"> Business</label>
+	<label><input type="radio" name="optType" value="other"> Other</label></p>
+</fieldset>
+
+<feildset>
+	<legend><strong>How did you hear about my website?</strong></legend>
+	<p><label><input type="checkbox" name="optSource" value="business"> Business contact</label></p>
+	<p><label><input type="checkbox" name="optSource" value="school"> School contact</label></p>
+	<p><label><input type="checkbox" name="optSource" value="friend"> Friend</label></p>
+	<p><label><input type="checkbox" name="optSource" value="other"> Other</label></p>
+</fieldset>
+
+<p><strong>Your message:</strong></p> <textarea name="txtMessage" value="message" rows="4" cols="50" placeholder="Type your message here . . ."></textarea>
+
+<p><strong>More about you:</strong>
+<select name="lstContactType">
+	<option value="type1">Fellow student</option>
+	<option value="type2">Utility industry professional</option>
+	<option value="type3">Employeer</option>
+	<option value="type4">Client</option>
+	<option value="type4">Gamer</option>
+</select>
+</p>
+	
+
+<input type="submit" name="btnSumbit">
+<input type="reset" name="btnReset">
+
+</article>
+
+</div><!--end ARTICLE block-->
+</div><!--end row 3-->
+
+<!--row 4-->
+<div class="row">
+<footer>
+<address>
+&copy; 2016 Mike Davidovich
+</address>
+</footer>
+</div><!--end row 4-->
+
+</div><!--close container-->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
